@@ -11,3 +11,4 @@ Introducción a la Programación en la Computadora Industrial Abierta Argentina 
 
 **Argentina**
 
+**Abril - 2018**
