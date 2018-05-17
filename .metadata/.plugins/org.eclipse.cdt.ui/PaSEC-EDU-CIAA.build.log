@@ -1,0 +1,18 @@
+20:56:46 **** Incremental Build of configuration Default for project PaSEC-EDU-CIAA ****
+make 
+*** compiling C file projects/proyecto_nvp/src/nvp.c ***
+projects/proyecto_nvp/src/nvp.c: In function 'main':
+projects/proyecto_nvp/src/nvp.c:45:2: warning: implicit declaration of function 'boardConfig' [-Wimplicit-function-declaration]
+  boardConfig();
+  ^
+projects/proyecto_nvp/src/nvp.c:60:4: warning: implicit declaration of function 'Led_Toggle' [-Wimplicit-function-declaration]
+    Led_Toggle( RED_LED );
+    ^
+*** linking project proyecto_nvp ***
+   text	   data	    bss	    dec	    hex	filename
+   9264	      4	     28	   9296	   2450	out/lpc4337_m4/proyecto_nvp.axf
+copy from `out/lpc4337_m4/proyecto_nvp.axf' [elf32-littlearm] to `out/lpc4337_m4/proyecto_nvp.bin' [binary]
+*** post-build ***
+
+20:56:53 Build Finished (took 7s.417ms)
+

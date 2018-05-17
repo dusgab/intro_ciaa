@@ -1,0 +1,415 @@
+20:04:12 **** Build of configuration Default for project firmware_v2 ****
+make all 
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_gpio.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_spi.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_convert.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_adc.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_sct.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_sleep.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_board.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_print.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_circularBuffer.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_hmc5883l.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_servo.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_timer.c ***
+modules/lpc4337_m4/sapi/src/sapi_timer.c:88:4: warning: missing braces around initializer [-Wmissing-braces]
+    {doNothing,errorOcurred,errorOcurred,errorOcurred},
+    ^
+modules/lpc4337_m4/sapi/src/sapi_timer.c:88:4: warning: (near initialization for 'timer_dd[0].timerCompareMatchFunctionPointer') [-Wmissing-braces]
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_i2c.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_tick.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_rtc.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_dac.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_delay.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_keypad.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_uart.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_7_segment_display.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_pwm.c ***
+*** compiling C file modules/lpc4337_m4/sapi/src/sapi_datatypes.c ***
+*** archiving static library sapi ***
+   text	   data	    bss	    dec	    hex	filename
+   1314	      0	      0	   1314	    522	sapi_gpio.o (ex out/lpc4337_m4/libsapi.a)
+    416	      0	      0	    416	    1a0	sapi_spi.o (ex out/lpc4337_m4/libsapi.a)
+    761	      0	     17	    778	    30a	sapi_convert.o (ex out/lpc4337_m4/libsapi.a)
+    268	      0	      0	    268	    10c	sapi_adc.o (ex out/lpc4337_m4/libsapi.a)
+    672	     28	      0	    700	    2bc	sapi_sct.o (ex out/lpc4337_m4/libsapi.a)
+     16	      0	      0	     16	     10	sapi_sleep.o (ex out/lpc4337_m4/libsapi.a)
+    244	      0	      0	    244	     f4	sapi_board.o (ex out/lpc4337_m4/libsapi.a)
+    295	      0	      0	    295	    127	sapi_print.o (ex out/lpc4337_m4/libsapi.a)
+    452	      0	      0	    452	    1c4	sapi_circularBuffer.o (ex out/lpc4337_m4/libsapi.a)
+    592	      0	      0	    592	    250	sapi_hmc5883l.o (ex out/lpc4337_m4/libsapi.a)
+   1473	     72	      0	   1545	    609	sapi_servo.o (ex out/lpc4337_m4/libsapi.a)
+   1836	     64	      0	   1900	    76c	sapi_timer.o (ex out/lpc4337_m4/libsapi.a)
+    496	      0	      0	    496	    1f0	sapi_i2c.o (ex out/lpc4337_m4/libsapi.a)
+    412	      4	      0	    416	    1a0	sapi_tick.o (ex out/lpc4337_m4/libsapi.a)
+    256	      0	      1	    257	    101	sapi_rtc.o (ex out/lpc4337_m4/libsapi.a)
+    160	      0	      0	    160	     a0	sapi_dac.o (ex out/lpc4337_m4/libsapi.a)
+    512	      0	      0	    512	    200	sapi_delay.o (ex out/lpc4337_m4/libsapi.a)
+    460	      0	      0	    460	    1cc	sapi_keypad.o (ex out/lpc4337_m4/libsapi.a)
+   1044	      0	      0	   1044	    414	sapi_uart.o (ex out/lpc4337_m4/libsapi.a)
+    256	     26	      0	    282	    11a	sapi_7_segment_display.o (ex out/lpc4337_m4/libsapi.a)
+    519	     11	      0	    530	    212	sapi_pwm.o (ex out/lpc4337_m4/libsapi.a)
+     24	      0	      0	     24	     18	sapi_datatypes.o (ex out/lpc4337_m4/libsapi.a)
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/switch.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/timer.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/ftoa.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/GPIO.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/led.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/cad.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/itoa.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/datatypes.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/servo.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/cda.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/uart.c ***
+*** compiling C file modules/lpc4337_m4/drivers_bm/src/retardos.c ***
+*** archiving static library drivers_bm ***
+   text	   data	    bss	    dec	    hex	filename
+    468	      0	      0	    468	    1d4	switch.o (ex out/lpc4337_m4/libdrivers_bm.a)
+   1960	     64	      0	   2024	    7e8	timer.o (ex out/lpc4337_m4/libdrivers_bm.a)
+    432	      0	      0	    432	    1b0	ftoa.o (ex out/lpc4337_m4/libdrivers_bm.a)
+   1292	      0	      0	   1292	    50c	GPIO.o (ex out/lpc4337_m4/libdrivers_bm.a)
+   1084	      0	      0	   1084	    43c	led.o (ex out/lpc4337_m4/libdrivers_bm.a)
+    400	      1	      8	    409	    199	cad.o (ex out/lpc4337_m4/libdrivers_bm.a)
+    232	      0	      0	    232	     e8	itoa.o (ex out/lpc4337_m4/libdrivers_bm.a)
+     24	      0	      0	     24	     18	datatypes.o (ex out/lpc4337_m4/libdrivers_bm.a)
+   1473	     72	      0	   1545	    609	servo.o (ex out/lpc4337_m4/libdrivers_bm.a)
+    188	      0	      0	    188	     bc	cda.o (ex out/lpc4337_m4/libdrivers_bm.a)
+   1145	      4	      0	   1149	    47d	uart.o (ex out/lpc4337_m4/libdrivers_bm.a)
+    424	      0	      0	    424	    1a8	retardos.o (ex out/lpc4337_m4/libdrivers_bm.a)
+*** compiling C file modules/lpc4337_m4/base/src/cr_start_m0.c ***
+*** compiling C file modules/lpc4337_m4/base/src/sysinit.c ***
+*** compiling C file modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c ***
+*** archiving static library base ***
+   text	   data	    bss	    dec	    hex	filename
+    320	      0	      0	    320	    140	cr_start_m0.o (ex out/lpc4337_m4/libbase.a)
+     40	      0	      0	     40	     28	sysinit.o (ex out/lpc4337_m4/libbase.a)
+    680	      0	      0	    680	    2a8	cr_startup_lpc43xx.o (ex out/lpc4337_m4/libbase.a)
+*** compiling C file modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c ***
+*** compiling C file modules/lpc4337_m4/board/src/board_sysinit.c ***
+modules/lpc4337_m4/board/src/board_sysinit.c:91:13: warning: 'ciaaSetupCoreClock' defined but not used [-Wunused-function]
+ static void ciaaSetupCoreClock(CHIP_CGU_CLKIN_T clkin, uint32_t core_freq, bool setbase)
+             ^
+*** compiling C file modules/lpc4337_m4/board/src/board.c ***
+modules/lpc4337_m4/board/src/board.c:50:17: warning: 'lcd_cfg_val' defined but not used [-Wunused-variable]
+ static uint32_t lcd_cfg_val;
+                 ^
+*** compiling C file modules/lpc4337_m4/board/src/mem_tests.c ***
+*** archiving static library board ***
+   text	   data	    bss	    dec	    hex	filename
+    876	      0	     18	    894	    37e	lpc_phy_smsc87x0.o (ex out/lpc4337_m4/libboard.a)
+    864	      0	      0	    864	    360	board_sysinit.o (ex out/lpc4337_m4/libboard.a)
+   1762	      0	      4	   1766	    6e6	board.o (ex out/lpc4337_m4/libboard.a)
+   1096	      0	      0	   1096	    448	mem_tests.o (ex out/lpc4337_m4/libboard.a)
+*** compiling C file modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/otp_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/emc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/chip_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/spi_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/spi_18xx_43xx.c: In function 'Chip_SPI_Int_FlushData':
+modules/lpc4337_m4/chip/src/spi_18xx_43xx.c:138:20: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t tmp;
+                    ^
+*** compiling C file modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/clock_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ring_buffer.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/uart_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/uart_18xx_43xx.c: In function 'Chip_UART_Init':
+modules/lpc4337_m4/chip/src/uart_18xx_43xx.c:98:23: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+     volatile uint32_t tmp;
+                       ^
+*** compiling C file modules/lpc4337_m4/chip/src/enet_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/timer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/fpu_init.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/adc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/iap_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_PreSectorForReadWrite':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:59:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:59:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_CopyRamToFlash':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:74:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:74:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_EraseSector':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:89:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:89:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_BlankCheckSector':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:103:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:103:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadPID':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:114:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:114:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadBootCode':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:125:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:125:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_Compare':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:139:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:139:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReinvokeISP':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:150:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:150:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadUID':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:161:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:161:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ErasePage':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:175:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:175:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_SetBootFlashBank':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:188:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:188:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+*** compiling C file modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sct_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/aes_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/dac_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c ***
+*** archiving static library chip ***
+   text	   data	    bss	    dec	    hex	filename
+      0	      0	      0	      0	      0	pinint_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    464	      0	     40	    504	    1f8	otp_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    620	      0	      0	    620	    26c	gpio_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1452	      0	      0	   1452	    5ac	emc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    252	      0	      0	    252	     fc	chip_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    132	      0	      0	    132	     84	wwdt_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    696	      0	      0	    696	    2b8	sdif_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1056	      0	      0	   1056	    420	spi_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1336	      0	      0	   1336	    538	i2s_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   4254	      0	      8	   4262	   10a6	clock_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+     56	      0	      0	     56	     38	pmc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex out/lpc4337_m4/libchip.a)
+    388	      0	     12	    400	    190	stopwatch_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2320	      0	      0	   2320	    910	ssp_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2172	      0	      1	   2173	    87d	uart_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    676	      0	      4	    680	    2a8	enet_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   3712	     56	     80	   3848	    f08	i2c_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   3164	      0	      4	   3168	    c60	sdmmc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    308	      0	      0	    308	    134	timer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    244	      0	      0	    244	     f4	ritimer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    432	      0	      0	    432	    1b0	sct_pwm_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    116	      0	      0	    116	     74	fpu_init.o (ex out/lpc4337_m4/libchip.a)
+   1100	      0	      0	   1100	    44c	adc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    600	      0	      0	    600	    258	sysinit_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    652	      0	      0	    652	    28c	iap_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1684	      0	      0	   1684	    694	i2cm_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    420	      0	      0	    420	    1a4	evrt_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    188	      0	      0	    188	     bc	sct_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    996	      0	      0	    996	    3e4	rtc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2696	    120	      8	   2824	    b08	gpdma_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    144	      0	      0	    144	     90	atimer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    360	      0	      0	    360	    168	eeprom_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    648	      0	     56	    704	    2c0	aes_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    924	      1	      0	    925	    39d	lcd_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    156	      0	      0	    156	     9c	dac_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2644	      4	    320	   2968	    b98	sdio_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    808	      0	      0	    808	    328	hsadc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+      0	      0	      0	      0	      0	gpiogroup_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2072	      0	      0	   2072	    818	ccan_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+*** compiling C file projects/proyecto_final/src/mi_proyecto.c ***
+projects/proyecto_final/src/mi_proyecto.c: In function 'main':
+projects/proyecto_final/src/mi_proyecto.c:61:2: warning: implicit declaration of function 'boardConfig' [-Wimplicit-function-declaration]
+  boardConfig();
+  ^
+projects/proyecto_final/src/mi_proyecto.c:113:6: warning: implicit declaration of function 'Led_Toggle' [-Wimplicit-function-declaration]
+      Led_Toggle( YELLOW_LED );
+      ^
+*** linking project proyecto_final ***
+   text	   data	    bss	    dec	    hex	filename
+  14332	    140	     28	  14500	   38a4	out/lpc4337_m4/proyecto_final.axf
+copy from `out/lpc4337_m4/proyecto_final.axf' [elf32-littlearm] to `out/lpc4337_m4/proyecto_final.bin' [binary]
+*** post-build ***
+
+20:05:09 Build Finished (took 56s.832ms)
+
